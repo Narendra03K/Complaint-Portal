@@ -1,0 +1,271 @@
+/* =============================student profile=========================== */
+body {
+    background-color: rgb(29, 230, 230);
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: rgb(46, 70, 87);
+    font-size: 24px;
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 30px;
+    display: block;
+    margin-left: 0px;
+}
+h2 {
+    font-weight: 300;
+    color: rgb(18, 34, 36);
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+
+/* -----------------------------header-starts------------------------- */
+
+
+header {
+    height: 100px;
+    background-color: rgba(246, 249, 252, 0.925);
+    display:inline-block;
+    width: 100%;
+}
+
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    text-decoration: underline;
+    color: rgb(235, 127, 136);
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 15px;
+    display: inline;
+}
+
+
+body{
+    background-color: #8dc5e7;
+}
+
+.container
+{
+    padding: 50px;
+    margin: 0 auto;
+    font-family: arial;
+}
+
+
+.container_border
+{
+    padding: 50px;
+    margin: 0 auto;
+    font-family: arial;
+    margin: 50px;
+    border: solid #bcbcbc 1px;
+    background-color:white;
+    
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.container_border_main
+{
+    padding: 50px;
+    margin: 0 auto;
+    font-family: arial;
+    margin: 50px;
+    text-align: center;
+    font-size: .9em;
+    border: solid #bcbcbc 1px;
+    background-color: #fdfdfd;
+    
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+
+
+
+
+/* -----------------------------header-ends------------------------- */
+
+/* #hero-image {
+    height: 650px;
+    width: 100%;
+    padding-top: 1px;
+    background: #e8eced url('../images/home.jpg') center;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+ 
+}
+#hero-image h2 {
+    margin: 180px 0 40px 0;
+}
+.button-1 {
+    display: block;
+    text-align: center;
+    background: #444;
+    border-radius: 3px;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: #242a2e;
+    color: #fff;
+} 
+------------------------------------------------------------------------------- */
+
+#features ul {
+    margin: 80px 0;
+}
+#features ul li {
+    width: 300px;
+    padding-top: 140px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    display: inline;
+}
+/* #features ul li.feature-1 {
+
+    background: url('../images/2.jpg') top center;
+    color: rgb(26, 6, 39);
+
+}
+#features ul li.feature-2 {
+    background: url('../images/1.jpg') top center;
+    color: rgb(26, 6, 39);
+    
+}
+#features ul li.feature-3 {
+    background: url('../images/2.jpg') no-repeat top center;
+    color: rgb(26, 6, 39);
+} */
+
+
+
+
+/* ----------------------------footer-starts-------------------------------------- */
+
+
+footer {
+    padding: 60px 0;
+    background-color: #0e0f0f;
+}
+#footer-info {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+#footer-links {
+    width: 520px;
+    float: right;
+   
+}
+#footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+   
+}
+#footer-links ul li {
+   
+    margin: 10px 0;
+}
+/* ----------------------------footer-ends-------------------------------------- */
+
+/* -----------------------------------table-properties------------------------------- */
+table {
+	border-collapse: collapse;
+    border: 1px black solid;
+	width: 100%;
+    text-decoration: underline;
+    
+}
+
+th {
+    background-color: rgb(144, 191, 235);
+	color: rgb(29, 9, 9);
+	height: 10px;
+}
+th, td {
+	padding: 10px;
+    border-bottom: 1px solid black;
+
+}
+tr:hover {
+    background-color: lightgray;
+    }
+
+
+
+
+/* -----------------------------------table-properties------------------------------- */
